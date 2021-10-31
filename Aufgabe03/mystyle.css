@@ -1,0 +1,142 @@
+body{
+    font-family: sans-serif;
+    background-image: url("bg.png");
+    color: #B63514;
+     border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 20px;
+
+}
+/*Kreis*/
+#box {
+    position: relative;
+    width: 800px;
+    height:800px;
+    border-radius: 50%;
+    border: 1px #B63514;
+    background-color: #B63514;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -400px;
+    
+    
+}
+
+/*link bar*/
+ul{
+    list-style-type: none;
+    position:fixed;
+    top: -20px;
+    width:95%;
+    z-index: 1;
+}
+
+li{
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    color: #B63514;
+    font-weight: bold;
+}
+
+li a:hover:not(.active){
+    background-color: #B63514;
+}
+
+.title {
+    font-size: 50px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 270px;
+    margin-bottom: 1px;
+}
+
+/*für den Portfolio Titel*/
+.portfolio {
+    font-size: 150px;
+    font-weight:900;
+    text-align: center;
+    color:white;
+    padding-top: 350px;
+}
+
+/*für den Portfolio Text*/
+#porText {
+    position: absolute;
+    width: 300px;
+    top: 500px;
+    right: 150px;
+    text-align: right;
+    color: white;
+    font-size: 20px;
+}
+
+/*Bild- und Videoanordnung*/
+img, video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 800px;
+    height: 100px;
+}
+
+/*Kontaktformular*/
+#contact {
+    width: 300px;
+    height: 40px;
+    margin-left: 270px;
+    margin-top: 10px;
+    background-color: darkgray;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
+
+/*Nachrichtenbox*/
+#message {
+    width: 400px;
+    height: 100px;
+    margin-left: 270px;
+    margin-top: 10px;
+    background-color: darkgray;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
+
+/*Datenschutz*/
+#dataSecurity {
+    width: 250px;
+    height: 100px;
+    margin-left: 270px;
+    margin-top: 15px;
+    background-color: none;
+    text-align: left;
+    color:darkgray;
+    font-size: 15px;
+}
+
+/*Sendebutton*/
+#send {
+    width: 150px;
+    height: 40px;
+    margin-left: 270px;
+    margin-top: 5px;
+    background-color: darkgray;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
