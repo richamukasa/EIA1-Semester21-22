@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    padding-top: 8%;
+}
+
+#tasks {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    font-family:fantasy;
+    font-size: 70px;
+    text-align: center;
+}
+
+a:link {
+    color:floralwhite;
+    text-decoration: none;
+}
+
+a:visited {
+    color:floralwhite;
+}
+
+a:hover {
+    color: orange;
+}

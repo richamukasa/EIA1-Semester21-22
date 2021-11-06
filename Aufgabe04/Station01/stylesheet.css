@@ -1,0 +1,45 @@
+body {
+    background-image: url("bg.png");
+    color: white;
+    margin: auto;
+    padding-top: 8%;
+}
+
+#card {
+    height: 400px;
+    width: 600px;
+    background-image: url("wrapperbg.png");
+    margin: auto;
+    color: white;
+    font-size: 25px;
+}
+
+.bush {
+    position: absolute;
+    top: 65px;
+    left: 300px;
+}
+
+.penguin {
+    position: absolute;
+    bottom: 125px;
+    right: 350px;
+}
+
+.greetings{
+    padding-top:75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 35px;
+    z-index: -1;
+}
+
+.actualText {
+    padding-top:10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: lighter;
+    font-size:20px;
+    z-index: -1;
+}

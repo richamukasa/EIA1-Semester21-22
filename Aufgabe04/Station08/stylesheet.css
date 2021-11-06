@@ -1,0 +1,26 @@
+body {
+    background-image: url("bg.png");
+    padding-top: 8%;
+}
+
+#card {
+    margin:auto;
+    width: 600px;
+    height: 400px;
+    background-image: url("wrapperbg.png");
+}
+
+#video {
+    position: relative;
+    margin: auto;
+    padding-top: 48px;
+    width:542px;
+    height: 304px;
+}
+
+.banderole {
+    position: relative;
+    bottom: 74px;
+    left: 370px;
+    z-index: +1;
+}

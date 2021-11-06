@@ -1,0 +1,35 @@
+body{
+    background-image: url("bg.png");
+    padding-top: 8%;
+}
+
+#card{
+    position: relative;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    background-image:url("wrapperbg.png");
+    color: white;
+}
+
+.twoColumns {
+    padding-left:50px;
+    width: 500px;
+    height: 100px;
+    column-count: 2;
+}
+
+.threeColumns {
+    padding-left: 50px;
+    width: 500px;
+    height: 100px;
+    column-count:3;
+    column-gap: 20px;
+}
+
+.cardHead {
+    padding-top: 60px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
