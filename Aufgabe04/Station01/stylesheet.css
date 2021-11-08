@@ -15,31 +15,33 @@ body {
 }
 
 .bush {
-    position: absolute;
-    top: 65px;
-    left: 300px;
+    position: relative;
+    top: -65px;
+    left: -65px;
+    z-index: +1;
 }
 
 .penguin {
-    position: absolute;
-    bottom: 125px;
-    right: 350px;
+    position: relative;
+    bottom: 205px;
+    right: -475px;
+    z-index: +1;
 }
 
 .greetings{
-    padding-top:75px;
+    position: relative;
+    top: -110px;
     padding-left: 50px;
     padding-right: 50px;
     font-weight: bold;
     font-size: 35px;
-    z-index: -1;
 }
 
 .actualText {
-    padding-top:10px;
+    position: relative;
+    top:-110px;
     padding-left: 50px;
     padding-right: 50px;
     font-weight: lighter;
     font-size:20px;
-    z-index: -1;
 }
