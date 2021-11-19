@@ -38,3 +38,11 @@ footer p {
     font-size: 10px;
     opacity: .5;
 }
+
+img {
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}

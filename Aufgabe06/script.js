@@ -15,10 +15,13 @@ window.addEventListener("load", function () {
     var emissionWhole = africa18 + southAmerica18 + europe18 + northAmerica18 + asia18 + australia18;
     function activeCountry(country18, country08, country) {
         document.querySelector("#titleRegion").innerHTML = country;
+        document.querySelector("#detailRegion").innerHTML = country;
         document.querySelector(".absoluteEmission").innerHTML = `${country18}`;
         document.querySelector(".relativeEmission").innerHTML = `${Math.round(country18 / emissionWhole * 10000) / 100}%`;
         document.querySelector(".growthPercent").innerHTML = `${Math.round((country18 - country08) / country08 * 10000) / 100}%`;
         document.querySelector(".growthAbsolute").innerHTML = (country18 - country08).toFixed(2);
+        var barDiagram = document.querySelector(".chart");
+        barDiagram.style.height = `${Math.round(country18 / emissionWhole * 10000) / 100}%`;
     }
     document.querySelector(".africa").addEventListener('click', function () { activeCountry(africa18, africa08, "Africa"); });
     document.querySelector(".asia").addEventListener('click', function () { activeCountry(asia18, asia08, "Asia"); });

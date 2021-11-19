@@ -17,10 +17,14 @@ var emissionWhole: number = africa18 + southAmerica18 + europe18 + northAmerica1
 
 function activeCountry(country18:number, country08:number, country:string): void {
     document.querySelector("#titleRegion").innerHTML=country;
+    document.querySelector("#detailRegion").innerHTML=country;
     document.querySelector(".absoluteEmission").innerHTML=`${country18}`;
     document.querySelector(".relativeEmission").innerHTML= `${Math.round(country18 / emissionWhole * 10000) / 100}%`;
     document.querySelector(".growthPercent").innerHTML=`${Math.round((country18 - country08) / country08 * 10000) / 100}%`;
     document.querySelector(".growthAbsolute").innerHTML=(country18 - country08).toFixed(2);
+
+    var barDiagram:HTMLElement = document.querySelector(".chart");
+    barDiagram.style.height = `${Math.round(country18 / emissionWhole * 10000) / 100}%`;
 }
 
 document.querySelector(".africa").addEventListener('click', function(){activeCountry(africa18, africa08, "Africa")});
@@ -29,4 +33,5 @@ document.querySelector(".australia").addEventListener('click', function(){active
 document.querySelector(".europe").addEventListener('click', function(){activeCountry(europe18, europe08, "Europe")});
 document.querySelector(".northAmerica").addEventListener('click', function(){activeCountry(northAmerica18, northAmerica08, "North America")});
 document.querySelector(".southAmerica").addEventListener('click', function(){activeCountry(southAmerica18, southAmerica08, "South America")});
+
 });
