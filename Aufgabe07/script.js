@@ -25,7 +25,7 @@ window.addEventListener("load", function () {
             beat[1].play();
         }, 2000);
     }
-    /*Bonusaufgabe*/
+    /*Bonusaufgabe: Drumpad Steuerbar mit den Ziffern 0-9*/
     document.addEventListener('keydown', function (event) {
         if (event.key == "9") {
             playSound(hiHat);
