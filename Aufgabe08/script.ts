@@ -8,7 +8,6 @@ window.addEventListener("load", function() {
 
     //Funktion für das Drum Pad
     function play(sample: string): void {
-        stopRecording();
         var sound: HTMLAudioElement = new Audio(sample);
         sound.play();
         if (recording) {

@@ -6,7 +6,6 @@ window.addEventListener("load", function () {
     var recording = false;
     //Funktion für das Drum Pad
     function play(sample) {
-        stopRecording();
         var sound = new Audio(sample);
         sound.play();
         if (recording) {
