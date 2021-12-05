@@ -1,0 +1,104 @@
+body{
+    font-family: arial;
+	font-size: large;
+    background-color: #000000;
+}
+
+
+/*Das Drum Pad Layout*/
+#drumPad{
+    margin:auto;
+    width: 460px;
+    height: 510px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+/*Pad Reihe 1*/
+#kickButton, #snareButton, #hiHatButton{
+    background: linear-gradient(to bottom, #3d93f6, #256bd8);
+    border-radius: 5px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+/*Pad Reihe 2*/
+#aButton, #cButton, #fButton{
+    background: linear-gradient(to bottom, #f35bc8, #ee19aa);
+    border-radius: 5px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+/*Pad Reihe 3*/
+#gButton, #laughButtonOne, #laughButtonTwo{
+    
+    border-radius: 5px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+
+#gButton{
+    background: linear-gradient(to bottom, #f35bc8, #ee19aa);
+}
+
+
+#laughButtonOne{
+    background: linear-gradient(to bottom, #f6a23d, #c56500);
+}
+
+#laughButtonTwo{
+    background: linear-gradient(to bottom, #f6a23d, #c56500);
+}
+
+#flowchart{
+    margin: auto;
+    width: 447px;
+    height: 642px;
+    padding-top: 100px;
+}
+
+#playPauseButton, #recordButton, #shuffleButton, #deleteButton{
+    margin: auto;
+    font-size: 100px;
+}
+
+#playPauseButton:hover, #recordButton:hover, #shuffleButton:hover, #deleteButton:hover{
+    opacity: 0.8;
+}
+
+#recordButton{
+    color: #c00;
+}
+
+#playPauseButton{
+    color: #adff2f;
+}
+
+#shuffleButton{
+    color: #ffa500;
+}
+
+#deleteButton{
+    color: #3d93f6;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffa500;
+}
+
+img {
+    margin: auto;
+}
+
