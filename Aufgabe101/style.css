@@ -1,0 +1,88 @@
+body{
+    background-image: url("Images/FreeSebaFlag.jpg");
+    background-size: cover;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+#wrapper{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+h3{
+    opacity: .5;
+}
+
+#taskInput, .checkBox{
+    margin: auto;
+    background-color: #eee;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #444;
+}
+
+#checkButton{
+    position: relative;
+    padding: 10px;
+    margin-left: 1px;
+    color: #ddd;
+}
+
+#delete{
+    position: relative;
+    padding: 10px;
+    margin-right: 1px;
+    color: #666;
+}
+
+#delete:hover {
+    color: #f04;
+}
+
+#recordButton {
+    padding: 10px;
+    font-size: 200%;
+    color: #f04;
+}
+
+#recordButton:hover{
+    color: #f049;
+}
+
+.toolTip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.toolTip .toolTipText {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.toolTip:hover .toolTipText {
+    visibility: visible;
+  }
+
+.checkBox{
+    border: 2px solid #ccc;    
+}
